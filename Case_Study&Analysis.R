@@ -36,6 +36,7 @@ sleep_data%>%
 # Visualization 01
 ggplot(data = daily_activity,aes(x = TotalSteps, y=SedentaryMinutes)) + 
   geom_point()
+
 #visualization 02
 ggplot(data=sleep_data, aes(x = TotalMinutesAsleep, y= TotalTimeInBed)) + 
   geom_point()
